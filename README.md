@@ -1,4 +1,4 @@
-# Notes abour WinDbg
+# Notes about WinDbg
 
 ## Installation
 
