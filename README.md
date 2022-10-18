@@ -12,12 +12,16 @@ Follow the instructions on [this document](https://learn.microsoft.com/en-us/win
 
 The program should be installed under the following directory:
 
-	cd "%ProgramFiles(x86)%\Windows Kits\"
+```cmd	
+cd "%ProgramFiles(x86)%\Windows Kits\"
+```
 
 And, more precisely:
-	
-	SET VERSION=10
-	cd "%ProgramFiles(x86)%\Windows Kits\%VERSION%\Debuggers"
+
+```cmd	
+SET VERSION=10
+cd "%ProgramFiles(x86)%\Windows Kits\%VERSION%\Debuggers"
+```
 
 Then, you must select the binary that is suitable for your architecture.
 
